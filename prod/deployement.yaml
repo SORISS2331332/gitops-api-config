@@ -1,4 +1,4 @@
-apiVersion: apps/v1
+apiVersion: apps/v2
 kind: Deployment
 metadata:
   name: api-test-deployment
@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: api-test-container
-        image: lastknight01/gitops-demo:v1.0
+        image: lastknight01/gitops-demo:v2.0
         ports:
         - containerPort: 8080
