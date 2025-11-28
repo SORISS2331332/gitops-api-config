@@ -19,3 +19,5 @@ spec:
         image: lastknight01/gitops-demo:v2.0
         ports:
         - containerPort: 8080
+
+// End of deployement.yaml
