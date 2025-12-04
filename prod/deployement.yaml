@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: api-test-container
-        image: lastknight01/gitops-demo:v0.0.0
+        image: lastknight01/gitops-demo:v0.0.1
         ports:
         - containerPort: 8080
